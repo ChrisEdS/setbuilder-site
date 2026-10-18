@@ -24,6 +24,12 @@ export const exampleTracks: Track[] = [
 const de = {
   langLabel: "Sprache",
   download: "Download",
+  navWhat: "Was es macht",
+  navHow: "So läuft's",
+  navTake: "Mitnehmen",
+  badge: "Für rekordbox · 3.6.2",
+  heroNote: "Mac, Windows und Linux · rekordbox bleibt unangetastet",
+  mockStatus: "Stick verbunden",
   eyebrow: "Version 3.6.2 · für rekordbox",
   title: "Dramaturgie statt Playlist.",
   lede:
@@ -54,8 +60,16 @@ const de = {
       body: "Stick für den Player, PDF für die Kabine, XML und M3U für den Rechner.",
     },
   ],
-  featuresTitle: "Was das Werkzeug zeigt",
+  featuresTitle: "Was es dem Set hinzufügt",
   features: [
+    {
+      title: "Playlist oder History",
+      body: "Vom Stick laden, in der Reihenfolge, in der sie dort steht.",
+    },
+    {
+      title: "Bogen nach Slot",
+      body: "Dauer, Phasen, Opener und Closer. Der Slot bleibt, was der Brief sagt.",
+    },
     {
       title: "Energie aus Dateien",
       body: "Stick-MP3s analysieren und Energy in die ID3-Tags schreiben. Das Audio bleibt unangetastet.",
@@ -65,12 +79,26 @@ const de = {
       body: "Camelot entlang des Sets, mit Mix-Score und Clashes. Opener und Closer bleiben stehen.",
     },
     {
-      title: "Stick-Rundreise",
-      body: "Aus export.pdb laden, das Set zurückschreiben, vor dem Gig am Player prüfen.",
+      title: "Spielzeit statt Dateilänge",
+      body: "Jede Spur gibt Zeit an den Blend ab. Kürzen füllt den Slot, es leert ihn nicht.",
     },
     {
       title: "Plan B",
       body: "Rollen und Alternativen pro Phase, wenn der Floor dreht.",
+    },
+  ],
+  perks: [
+    {
+      title: "Mac, Windows, Linux",
+      body: "Dieselbe App. Kein Konto, um ein Set vorzubereiten.",
+    },
+    {
+      title: "rekordbox allein",
+      body: "Stick und Collection brauchen keine Zugangsdaten.",
+    },
+    {
+      title: "Lücken füllen",
+      body: "Spotify, Tidal und Beatport, wenn ein Track noch nicht auf dem Stick liegt.",
     },
   ],
   sheetExample: "Beispiel",
@@ -88,6 +116,12 @@ const de = {
 const en: typeof de = {
   langLabel: "Language",
   download: "Download",
+  navWhat: "What it does",
+  navHow: "How it works",
+  navTake: "Take it",
+  badge: "For rekordbox · 3.6.2",
+  heroNote: "Mac, Windows and Linux · rekordbox stays untouched",
+  mockStatus: "Stick connected",
   eyebrow: "Version 3.6.2 · for rekordbox",
   title: "Dramaturgy, not a playlist.",
   lede:
@@ -118,8 +152,16 @@ const en: typeof de = {
       body: "Stick for the player, PDF for the booth, XML and M3U for the computer.",
     },
   ],
-  featuresTitle: "What the tool shows",
+  featuresTitle: "What it adds to the set",
   features: [
+    {
+      title: "Playlist or history",
+      body: "Load it from the stick, in the order it already has.",
+    },
+    {
+      title: "Arc by slot",
+      body: "Duration, phases, opener and closer. The slot stays what the brief says.",
+    },
     {
       title: "Energy from files",
       body: "Analyze stick MP3s and write Energy into the ID3 tags. The audio stays untouched.",
@@ -129,12 +171,26 @@ const en: typeof de = {
       body: "Camelot along the set, with mix score and clashes. Opener and closer stay put.",
     },
     {
-      title: "Stick round-trip",
-      body: "Load from export.pdb, write the set back, check it on the player before the gig.",
+      title: "Playing time, not file length",
+      body: "Each track gives time to the blend. Trim fills the slot, it does not empty it.",
     },
     {
       title: "Plan B",
       body: "Roles and alternatives per phase when the floor turns.",
+    },
+  ],
+  perks: [
+    {
+      title: "Mac, Windows, Linux",
+      body: "The same app. No account to prepare a set.",
+    },
+    {
+      title: "rekordbox alone",
+      body: "Stick and collection need no credentials.",
+    },
+    {
+      title: "Fill the gaps",
+      body: "Spotify, Tidal and Beatport when a track is not on the stick yet.",
     },
   ],
   sheetExample: "Example",
