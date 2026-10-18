@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="SETBUILDER">
+  <rect width="64" height="64" rx="14" fill="#181818"/>
+  <rect x="8" y="40" width="8" height="12" rx="2" fill="#4A4A4A"/>
+  <rect x="18" y="32" width="8" height="20" rx="2" fill="#6A6A6A"/>
+  <rect x="28" y="22" width="8" height="30" rx="2" fill="#9A9A9A"/>
+  <rect x="38" y="12" width="8" height="40" rx="2" fill="#1ED760"/>
+  <rect x="48" y="30" width="8" height="22" rx="2" fill="#5A5A5A"/>
+  <path
+    d="M12 46 C18 42, 22 36, 28 28 C32 22, 36 14, 42 14 C46 14, 50 26, 52 36"
+    stroke="#1ED760"
+    stroke-width="2"
+    stroke-linecap="round"
+    opacity="0.55"
+    fill="none"
+  />
+</svg>

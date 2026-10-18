@@ -1,0 +1,21 @@
+{
+  "name": "setbuilder-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4328 -H 127.0.0.1",
+    "build": "next build",
+    "start": "next start -H 127.0.0.1 -p 4328"
+  },
+  "dependencies": {
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
